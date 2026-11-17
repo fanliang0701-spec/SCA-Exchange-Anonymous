@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "rank_arrays_verified": {
+    "rank-curves.zip": 1490,
+    "residual-results.zip": 380,
+    "bitwise-rl-results.zip": 30,
+    "second-block-results.zip": 1640
+  },
+  "primary_groups": 190,
+  "second_block_groups": 164,
+  "table_II_cells_verified": 80,
+  "paper_costs_verified": true,
+  "finite_grid_envelopes_verified": true,
+  "equal_1ms": [
+    {
+      "id": "D1/Q5000/HW-RL",
+      "method": "HW-RL",
+      "Q": 5000,
+      "A": 980,
+      "C": 0.32802699781605044,
+      "total": 4.30802699781605
+    },
+    {
+      "id": "D2/Q2000/HW-RL",
+      "method": "HW-RL",
+      "Q": 2000,
+      "A": 599,
+      "C": 0.1324807161736923,
+      "total": 0.7314807161736923
+    },
+    {
+      "id": "D3/Q2000/HW-RL",
+      "method": "HW-RL",
+      "Q": 2000,
+      "A": 940,
+      "C": 0.13100182284154777,
+      "total": 1.0710018228415479
+    },
+    {
+      "id": "D4/Q2000/HW-RL",
+      "method": "HW-RL",
+      "Q": 2000,
+      "A": 1116,
+      "C": 0.1366318612000517,
+      "total": 1.2526318612000518
+    },
+    {
+      "id": "AES_GPU/Q5000/Bit-Gauss",
+      "method": "Bit-Gauss",
+      "Q": 5000,
+      "A": 376,
+      "C": 0.12687677549547516,
+      "total": 3.502876775495475
+    }
+  ],
+  "calibrated_92ms": [
+    {
+      "id": "D1/Q5000/RShare-T",
+      "method": "RShare-T",
+      "Q": 5000,
+      "A": 445,
+      "C": 8.30545272732852,
+      "total": 325.2327756344123
+    },
+    {
+      "id": "D2/Q2000/RShare-T",
+      "method": "RShare-T",
+      "Q": 2000,
+      "A": 277,
+      "C": 7.918971523984025,
+      "total": 33.401952204756796
+    },
+    {
+      "id": "D3/Q2000/RShare-T",
+      "method": "RShare-T",
+      "Q": 2000,
+      "A": 394,
+      "C": 9.956723256559538,
+      "total": 46.20327339455402
+    },
+    {
+      "id": "D4/Q2000/RShare-T",
+      "method": "RShare-T",
+      "Q": 2000,
+      "A": 455,
+      "C": 6.802724633882948,
+      "total": 48.661050300856274
+    },
+    {
+      "id": "AES_GPU/Q5000/Bitwise-RL",
+      "method": "Bitwise-RL",
+      "Q": 5000,
+      "A": 297,
+      "C": 5.208152668998809,
+      "total": 308.52002019429784
+    }
+  ],
+  "capture_reference_traces_per_second": 10.87,
+  "training_rerun": false,
+  "physical_capture_repeated": false
+}

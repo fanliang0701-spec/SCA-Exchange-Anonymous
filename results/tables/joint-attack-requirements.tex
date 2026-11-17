@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering\small
+\caption{Attack traces to 95\% observed SR. Each budget includes 20\% validation. $>10$k means unattained; n/a means the method was not fitted. FM4/DDPM16 use 6k updates.}
+\label{tab:attack-requirements}
+\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.06}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+Method & D1 & D2 & D3 & D4 & GPU\\
+\midrule
+\multicolumn{6}{c}{$Q=2000$}\\
+HW Gaussian & $>10$k & 1,162 & 3,929 & 1,806 & $>10$k\\
+HW-RL & $>10$k & 599 & 940 & 1,116 & $>10$k\\
+Bit-Gauss & $>10$k & 2,959 & $>10$k & 4,448 & $>10$k\\
+Bitwise-RL & n/a & n/a & n/a & n/a & $>10$k\\
+Real MLP & $>10$k & 3,937 & 3,521 & 4,445 & $>10$k\\
+RShare & $>10$k & 277 & 394 & 455 & $>10$k\\
+FM4 & $>10$k & 337 & 403 & 345 & 4,974\\
+DDPM16 & 9,955 & 336 & 403 & 404 & $>10$k\\
+\midrule
+\multicolumn{6}{c}{$Q=5000$}\\
+HW Gaussian & 1,738 & 844 & 949 & 780 & 2,596\\
+HW-RL & 980 & 404 & 358 & 379 & 1,576\\
+Bit-Gauss & 2,501 & 1,175 & 2,030 & 1,269 & 376\\
+Bitwise-RL & n/a & n/a & n/a & n/a & 297\\
+Real MLP & 5,856 & 989 & 492 & 745 & 9,592\\
+RShare & 445 & 170 & 144 & 141 & 1,585\\
+FM4 & 773 & 230 & 159 & 189 & n/a\\
+DDPM16 & 875 & 240 & 155 & 193 & n/a\\
+\bottomrule
+\end{tabular*}
+\end{table}

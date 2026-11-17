@@ -1,0 +1,4 @@
+-r requirements.txt
+torch>=2.5,<3
+scipy>=1.10,<2
+h5py>=3.8,<4

@@ -1,0 +1,9 @@
+{
+  "torch": "2.9.0+cu128",
+  "numpy": "2.2.6",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "cpu_threads": 2,
+  "precision": "float64",
+  "driver_sha256": "b85addfc73c872f3bf1ab18f7166a9eadb50d029c7d834a88ad5f6a9355aed84"
+}

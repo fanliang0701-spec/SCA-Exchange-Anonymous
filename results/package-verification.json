@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "packaged text, archive member names and nested JSON, file integrity and README links",
+  "text_items_scanned": 2095,
+  "personal_paths_host_identifiers_and_email_matches": 0,
+  "zip_member_timestamps": "2026-01-01 00:00:00",
+  "git_history_included": false,
+  "manuscript_included": false,
+  "published_or_uploaded": false
+}

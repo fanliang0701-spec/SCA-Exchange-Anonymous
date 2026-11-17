@@ -1,0 +1,45 @@
+{
+  "paper_title": "Acquire or Generate? Cost-Aware Profiling Decisions for Side-Channel Evaluation",
+  "paper_sha256": "c78f8659a9d5ccb7b8d3c36e6df8c5fba6987aeedd28793a045a84431f58a860",
+  "array_policy": "NPY payloads in all four rank archives are byte-identical to the experiment records; JSON location strings and ZIP timestamps were anonymized.",
+  "code_policy": "Numerical kernels are extracted from recorded source modules; path adapters and public command-line entry points are new. Training is not rerun when rebuilding the paper.",
+  "source_modules": [
+    {
+      "module": "00_flow_impl.py",
+      "recorded_sha256": "2ca29925f20e5d60dc8ef01051c83e8e7c280263fa0bdbe3b1493cadcf37d976",
+      "retrieved_sha256": "2ca29925f20e5d60dc8ef01051c83e8e7c280263fa0bdbe3b1493cadcf37d976"
+    },
+    {
+      "module": "02_models.py",
+      "recorded_sha256": "6368196ddb7157106615af15ef1ff8ca6792f19e4ba3d2bb6f85403fedf7eb9d",
+      "retrieved_sha256": "6368196ddb7157106615af15ef1ff8ca6792f19e4ba3d2bb6f85403fedf7eb9d"
+    },
+    {
+      "module": "03_core.py",
+      "recorded_sha256": "b98aa64e5d1941a10bec168c171a8ac6552b2db2545798b49e44445e9b1fa9f1",
+      "retrieved_sha256": "b98aa64e5d1941a10bec168c171a8ac6552b2db2545798b49e44445e9b1fa9f1"
+    },
+    {
+      "module": "06_experiment.py",
+      "recorded_sha256": "737fb16cff806a794394b2fa07ca798e90f91a132f755d30163317a571b9e5b2",
+      "retrieved_sha256": "737fb16cff806a794394b2fa07ca798e90f91a132f755d30163317a571b9e5b2"
+    },
+    {
+      "module": "11_experiment.py",
+      "recorded_sha256": "32bfda12ac843e45f8acfd732fe94386317635f65c7b1f367ab552d36228b65d",
+      "retrieved_sha256": "32bfda12ac843e45f8acfd732fe94386317635f65c7b1f367ab552d36228b65d"
+    },
+    {
+      "module": "15_metrics.py",
+      "recorded_sha256": "f2a340dd3d1c1cdaba3a6d8b9f24f13b7a17c5251fe59c282d580e2766da6406",
+      "retrieved_sha256": "f2a340dd3d1c1cdaba3a6d8b9f24f13b7a17c5251fe59c282d580e2766da6406"
+    },
+    {
+      "module": "16_reference_ranks.py",
+      "recorded_sha256": "2212d808f6c2ab63765db4e2f6fb86de90faf764969fb203698e476eef8fcb0c",
+      "retrieved_sha256": "2212d808f6c2ab63765db4e2f6fb86de90faf764969fb203698e476eef8fcb0c"
+    }
+  ],
+  "likelihood_module_sha256": "baa0c155ffe2e1af102c00754599a9119f0637fe4afad7a83ae399e8a23c8a66",
+  "generator_training_module_sha256": "7d0c63f3cceb68a419ad1b90f7dc9582aff2a3bdf4ad24466de6b31a526f4a58"
+}

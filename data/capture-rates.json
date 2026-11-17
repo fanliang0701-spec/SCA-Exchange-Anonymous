@@ -1,0 +1,16 @@
+{
+  "traces_per_second": {
+    "F0": 9.21,
+    "F1": 11.23,
+    "F2": 10.87,
+    "F3": 12.43,
+    "XMEGA": 5.21
+  },
+  "reference_traces_per_second": 10.87,
+  "reference_ms_per_trace": 91.99632014719411,
+  "basis": "Median of five target rates; each target rate is the mean of three wall-clock runs, as stated in the paper.",
+  "boundary": "Sustained usable-trace count divided by elapsed wall-clock time. Scope/target model and exact arm/readback/storage boundary were not retained.",
+  "raw_repetition_timings_available": false,
+  "setup_cost_seconds": 0,
+  "interpretation": "Workflow calibration applied as a price scenario to benchmark recovery; not benchmark-device capture throughput."
+}

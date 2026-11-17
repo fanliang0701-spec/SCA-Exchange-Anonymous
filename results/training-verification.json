@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "environment": {"python": "3.12.3", "torch": "2.9.0+cu128", "numpy": "2.2.6", "execution_device": "CPU", "threads": 2},
+  "numerical_checks_passed": 6,
+  "checks": ["exact KDE and bit basis", "HW mean/covariance and relative-score equivalence", "whole-vector residual donors and replay prefix", "independent prefix ranks and ties", "fixed generator endpoints and sampling steps", "priors, fitting-only selection, CNN and SMOTE"],
+  "real_input_fits": {"dataset": "AES_GPU", "Q": 2000, "seed": 13, "methods": ["HW-template-fixed", "HW-template-cv", "Real", "RShare-T"]},
+  "public_prepare_fit_evaluate": {"dataset": "AES_GPU", "Q": 2000, "seed": 13, "method": "HW-template-fixed", "rank_shape": [20, 10000], "exact_recorded_rank_replay": true},
+  "full_neural_campaign_rerun": false,
+  "physical_capture_repeated": false
+}

@@ -1,0 +1,32 @@
+{
+  "price_regions": {
+    "D1": {
+      "D1/Q2000/DDPM16-6000": 20053,
+      "D1/Q5000/HW-template-fixed": 15448,
+      "D1/Q5000/RShare-T": 10325,
+      "D1/Q10000/HW-template-fixed": 1694,
+      "D1/Q10000/RShare-T": 3489,
+      "D1/Q20000/HW-template-fixed": 120,
+      "D1/Q20000/RShare-T": 10712,
+      "D1/Q10000/HW-RL": 6112,
+      "D1/Q5000/HW-RL": 11008
+    },
+    "AES_GPU": {
+      "AES_GPU/Q2000/FM4-6000": 21901,
+      "AES_GPU/Q5000/HW-template-fixed": 6688,
+      "AES_GPU/Q20000/Bit-Gauss": 15552,
+      "AES_GPU/Q5000/Bit-Gauss": 27135,
+      "AES_GPU/Q5000/Bitwise-RL": 7685
+    }
+  },
+  "B_sensitivity": {
+    "D1": {
+      "B1_ms": 16.99670730010839,
+      "source": "D1/Q5000/HW-RL"
+    },
+    "AES_GPU": {
+      "B1_ms": 15.25149948646105,
+      "source": "AES_GPU/Q5000/Bit-Gauss"
+    }
+  }
+}

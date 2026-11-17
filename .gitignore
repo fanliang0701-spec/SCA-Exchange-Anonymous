@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+local-data/
+runs/
+results/analysis.json
+results/curves.npz
+results/extended-curves.npz
+results/build/
